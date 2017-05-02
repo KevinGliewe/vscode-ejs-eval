@@ -8,7 +8,7 @@ This Visual Studio Code Extensionsion let you evaluate your [ejs](http://ejs.co)
 
 To evaluate a ejs document, run the command `EJS Eval`.
 
-![screenshot](images/screenshot.gif)
+![screenshot](https://github.com/KevinGliewe/vscode-ejs-eval/raw/master/images/screenshot.gif)
 
 ## Installation
 
