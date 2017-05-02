@@ -2,7 +2,7 @@
   "name": "ejs-eval",
   "displayName": "EJS Eval",
   "description": "EJS Template Evaluator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "kevgl",
   "license": "MIT",
   "author": {
