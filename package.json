@@ -14,12 +14,27 @@
   "galleryBanner": {
     "color": "#ffdd00"
   },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/KevinGliewe/vscode-ejs-eval"
+  },
+  "bugs": {
+      "url": "https://github.com/KevinGliewe/vscode-ejs-eval/issues",
+      "email": "kevingliewe@gmail.com"
+  },
   "engines": {
     "vscode": "^1.11.0"
   },
   "categories": [
     "Other"
   ],
+  "keywords": [
+      "ejs",
+      "template",
+      "eval"
+  ],
+  "preview": true,
+  "homepage": "https://github.com/KevinGliewe/vscode-ejs-eval",
   "activationEvents": [
     "onCommand:extension.ejseval"
   ],
