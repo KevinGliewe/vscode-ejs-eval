@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+ <title>new-logo</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" fill="#083a53" d="m64.007477,123.65905a60,60 0 0 1 -42.426001,-102.426001a60,60 0 0 1 84.853003,84.853003a59.609001,59.609001 0 0 1 -42.427002,17.572998z"/>
+  <text stroke="null" transform="matrix(1 0 0 1.39153 0 -21.3199)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_13" y="62.895443" x="44.703125" stroke-opacity="null" stroke-width="0" fill="#ffffff">EJS</text>
+  <text font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_14" y="85.5" x="40.033854" stroke-opacity="null" stroke-width="0" stroke="null" fill="#ffffff">EVAL</text>
+  <text font-weight="bold" stroke="null" transform="matrix(1.14831 0 0 2.45077 -9.20554 -92.7206)" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_15" y="72.568132" x="10.338873" stroke-opacity="null" stroke-width="0" fill="#cccccc">&lt;%</text>
+  <text font-weight="bold" stroke="null" transform="matrix(1.10959 0 0 2.45963 -16.091 -58.7124)" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_16" y="58.502239" x="96.280884" stroke-opacity="null" stroke-width="0" fill="#cccccc">%&gt;</text>
+ </g>
+</svg>
