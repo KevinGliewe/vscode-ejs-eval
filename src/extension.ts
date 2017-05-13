@@ -12,13 +12,13 @@ export function activate(context: vscode.ExtensionContext) {
     class TextDocumentContentProvider implements vscode.TextDocumentContentProvider {
         private _onDidChange = new vscode.EventEmitter<vscode.Uri>();
 
-		public update(uri: vscode.Uri) {
-			this._onDidChange.fire(uri);
-		}
+        public update(uri: vscode.Uri) {
+            this._onDidChange.fire(uri);
+        }
 
-		get onDidChange(): vscode.Event<vscode.Uri> {
-			return this._onDidChange.event;
-		}
+        get onDidChange(): vscode.Event<vscode.Uri> {
+            return this._onDidChange.event;
+        }
 
         public provideTextDocumentContent(uri: vscode.Uri): string {
             if(vscode.window.activeTextEditor === undefined)
@@ -30,11 +30,11 @@ export function activate(context: vscode.ExtensionContext) {
             catch(err) {
                 return '<p style="color:#FF0000">' + this.magic(err.message) +'</p>';
             }
-		}
+        }
 
         private extractCode(): string {
-			let editor = vscode.window.activeTextEditor;
-			let text = editor.document.getText();
+            let editor = vscode.window.activeTextEditor;
+            let text = editor.document.getText();
             return ejs.render(text, {
                 document : editor.document
             });
@@ -50,14 +50,14 @@ export function activate(context: vscode.ExtensionContext) {
     }
 
     let provider = new TextDocumentContentProvider();
-	let registration = vscode.workspace.registerTextDocumentContentProvider('ejs-preview', provider);
+    let registration = vscode.workspace.registerTextDocumentContentProvider('ejs-preview', provider);
 
     let disposable = vscode.commands.registerCommand('extension.ejseval', () => {
-		return vscode.commands.executeCommand('vscode.previewHtml', previewUri, vscode.ViewColumn.Two, 'EJS Output').then((success) => {
+        return vscode.commands.executeCommand('vscode.previewHtml', previewUri, vscode.ViewColumn.Two, 'EJS Output').then((success) => {
             provider.update(previewUri);
-		}, (reason) => {
-			vscode.window.showErrorMessage(reason);
-		});
+        }, (reason) => {
+            vscode.window.showErrorMessage(reason);
+        });
     });
 
     context.subscriptions.push(disposable);
