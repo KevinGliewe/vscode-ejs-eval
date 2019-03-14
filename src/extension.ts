@@ -37,6 +37,8 @@ export function activate(context: vscode.ExtensionContext) {
             let text = editor.document.getText();
             return ejs.render(text, {
                 document : editor.document
+            }, {
+                filename: editor.document.fileName
             });
         }
 
