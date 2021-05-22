@@ -26,6 +26,15 @@ If you find anny Issues, let me know through [the issues section of the Github's
 
 ## Release Notes
 
+### 1.0.2
+
+ - Update dependencies
+ - Replace deprecated `vscode.previewHtml` with `vscode.workspace.openTextDocument`. Fixes [https://github.com/KevinGliewe/vscode-ejs-eval/issues/2](https://github.com/KevinGliewe/vscode-ejs-eval/issues/2)
+
+### 1.0.1
+
+Refine package informations
+
 ### 1.0.0
 
 Initial release of EJS Eval

@@ -1,17 +1,131 @@
-<?xml version="1.0"?>
-<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
- <title>new-logo</title>
-
- <g>
-  <title>background</title>
-  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
- </g>
- <g>
-  <title>Layer 1</title>
-  <path id="svg_1" fill="#083a53" d="m64.007477,123.65905a60,60 0 0 1 -42.426001,-102.426001a60,60 0 0 1 84.853003,84.853003a59.609001,59.609001 0 0 1 -42.427002,17.572998z"/>
-  <text stroke="null" transform="matrix(1 0 0 1.39153 0 -21.3199)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_13" y="62.895443" x="44.703125" stroke-opacity="null" stroke-width="0" fill="#ffffff">EJS</text>
-  <text font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_14" y="85.5" x="40.033854" stroke-opacity="null" stroke-width="0" stroke="null" fill="#ffffff">EVAL</text>
-  <text font-weight="bold" stroke="null" transform="matrix(1.14831 0 0 2.45077 -9.20554 -92.7206)" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_15" y="72.568132" x="10.338873" stroke-opacity="null" stroke-width="0" fill="#cccccc">&lt;%</text>
-  <text font-weight="bold" stroke="null" transform="matrix(1.10959 0 0 2.45963 -16.091 -58.7124)" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_16" y="58.502239" x="96.280884" stroke-opacity="null" stroke-width="0" fill="#cccccc">%&gt;</text>
- </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="D:\prog\vscode\vscode-ejs-eval\images\logo.png"
+   inkscape:export-xdpi="384"
+   inkscape:export-ydpi="384"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs22" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1770"
+     inkscape:window-height="1041"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="6.953125"
+     inkscape:cx="72.296629"
+     inkscape:cy="58.247191"
+     inkscape:window-x="2678"
+     inkscape:window-y="1"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg18" />
+  <title
+     id="title2">new-logo</title>
+  <g
+     id="g7">
+    <title
+       id="title4">background</title>
+    <rect
+       fill="none"
+       id="canvas_background"
+       height="402"
+       width="582"
+       y="-1"
+       x="-1" />
+  </g>
+  <g
+     id="g16">
+    <title
+       id="title9">Layer 1</title>
+    <path
+       id="svg_1"
+       fill="#083a53"
+       d="m64.007477,123.65905a60,60 0 0 1 -42.426001,-102.426001a60,60 0 0 1 84.853003,84.853003a59.609001,59.609001 0 0 1 -42.427002,17.572998z" />
+    <text
+       stroke="null"
+       transform="matrix(1 0 0 1.39153 0 -21.3199)"
+       font-weight="bold"
+       xml:space="preserve"
+       text-anchor="start"
+       font-family="'Trebuchet MS', Gadget, sans-serif"
+       font-size="24"
+       id="svg_13"
+       y="62.895443"
+       x="44.703125"
+       stroke-opacity="null"
+       stroke-width="0"
+       fill="#ffffff">EJS</text>
+    <text
+       font-weight="normal"
+       font-style="normal"
+       xml:space="preserve"
+       text-anchor="start"
+       font-family="'Trebuchet MS', Gadget, sans-serif"
+       font-size="24"
+       id="svg_14"
+       y="85.5"
+       x="40.033854"
+       stroke-opacity="null"
+       stroke-width="0"
+       stroke="null"
+       fill="#ffffff">EVAL</text>
+    <text
+       font-weight="bold"
+       stroke="null"
+       transform="matrix(1.14831 0 0 2.45077 -9.20554 -92.7206)"
+       xml:space="preserve"
+       text-anchor="start"
+       font-family="'Trebuchet MS', Gadget, sans-serif"
+       font-size="24"
+       id="svg_15"
+       y="72.568132"
+       x="10.338873"
+       stroke-opacity="null"
+       stroke-width="0"
+       fill="#cccccc">&lt;%</text>
+    <text
+       font-weight="bold"
+       stroke="null"
+       transform="matrix(1.10959 0 0 2.45963 -16.091 -58.7124)"
+       xml:space="preserve"
+       text-anchor="start"
+       font-family="'Trebuchet MS', Gadget, sans-serif"
+       font-size="24"
+       id="svg_16"
+       y="58.502239"
+       x="96.280884"
+       stroke-opacity="null"
+       stroke-width="0"
+       fill="#cccccc">%&gt;</text>
+  </g>
 </svg>

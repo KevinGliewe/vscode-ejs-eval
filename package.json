@@ -2,7 +2,7 @@
   "name": "ejs-eval",
   "displayName": "EJS Eval",
   "description": "EJS Template Evaluator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "kevgl",
   "license": "MIT",
   "author": {
@@ -10,17 +10,17 @@
     "name": "Kevin Gliewe",
     "url": "http://gliewe.net"
   },
-  "icon": "images/logo.svg",
+  "icon": "images/logo.png",
   "galleryBanner": {
     "color": "#ffdd00"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/KevinGliewe/vscode-ejs-eval"
+    "type": "git",
+    "url": "https://github.com/KevinGliewe/vscode-ejs-eval"
   },
   "bugs": {
-      "url": "https://github.com/KevinGliewe/vscode-ejs-eval/issues",
-      "email": "kevingliewe@gmail.com"
+    "url": "https://github.com/KevinGliewe/vscode-ejs-eval/issues",
+    "email": "kevingliewe@gmail.com"
   },
   "engines": {
     "vscode": "^1.11.0"
@@ -29,9 +29,9 @@
     "Other"
   ],
   "keywords": [
-      "ejs",
-      "template",
-      "eval"
+    "ejs",
+    "template",
+    "eval"
   ],
   "preview": true,
   "homepage": "https://github.com/KevinGliewe/vscode-ejs-eval",
@@ -54,14 +54,14 @@
     "test": "node ./node_modules/vscode/bin/test"
   },
   "devDependencies": {
-    "@types/ejs": "^2.3.33",
-    "@types/mocha": "^2.2.32",
-    "@types/node": "^6.0.40",
-    "mocha": "^2.3.3",
-    "typescript": "^2.0.3",
+    "@types/ejs": "^3.0.6",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.6.0",
+    "mocha": "^8.4.0",
+    "typescript": "^4.2.4",
     "vscode": "^1.0.0"
   },
   "dependencies": {
-    "ejs": "^2.5.6"
+    "ejs": "^3.1.6"
   }
 }
